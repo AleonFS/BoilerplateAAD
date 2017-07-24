@@ -1,0 +1,26 @@
+{
+  "name": "nd_platform",
+  "version": "1.0.0",
+  "description": "Private LowCost webs",
+  "main": ".dist/index.html",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.5.1",
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp-cache": "^0.4.6",
+    "gulp-jade": "^1.1.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "setup": "npm install && bower install",
+    "postsetup": "gulp"
+  },
+  "author": "Alejandro León",
+  "license": "MIT"
+}

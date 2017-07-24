@@ -1,0 +1,12 @@
+doctype html
+html(ng-app="workTrack")
+    head( lang="es")
+        meta(charset="UTF-8")
+        title BOXJOB
+        //-Todos los Estilos se incluyen en este a modo de enrutador
+        include styles
+        base(href="/")
+    body
+        ng-view
+        //-Todos los Scripts se incluyen en este a modo de enrutador
+        include scripts

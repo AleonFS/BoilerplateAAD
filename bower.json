@@ -1,0 +1,32 @@
+{
+  "name": "nd_platform",
+  "description": "Boilerplate",
+  "main": "./dist/index.html",
+  "home": "./dist/index.html",
+  "authors": [
+    "Alejandro León"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-bootstrap": "~2.5",
+    "underscore": "~1.8",
+    "fontawesome": "~4.7",
+    "moment": "~2.18",
+    "angular-route": "^1.6.5"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "package.json",
+    "src"
+  ],
+  "resolutions": {
+    "angular": "1.6.5"
+  }
+}
